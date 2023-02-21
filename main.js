@@ -172,7 +172,10 @@ document.querySelector("#increase").onclick=function(){
   title.innerText='Increasing';
 }
 
+
+//change color to red
 document.querySelector("#colorbtn").onclick=function(){
+    document.body.style.backgroundColor="red";
 
 }
 
